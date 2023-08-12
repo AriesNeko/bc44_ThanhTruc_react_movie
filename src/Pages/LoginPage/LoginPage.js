@@ -40,7 +40,11 @@ export default function LoginPage() {
     <div className="bg-rose-200 h-screen flex items-center justify-center">
       <div className="container p-10 bg-white rounded flex">
         <div className="w-1/2 h-full">
-          <Lottie animationData={animation} loop={true} />
+          <Lottie
+            style={{ height: 300 }}
+            animationData={animation}
+            loop={true}
+          />
         </div>
         <div className="w-1/2 h-full">
           <Form

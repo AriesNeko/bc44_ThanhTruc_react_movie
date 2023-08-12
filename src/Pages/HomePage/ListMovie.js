@@ -22,6 +22,7 @@ export default function ListMovie() {
     return movieArr.map(({ hinhAnh, tenPhim, maPhim }) => {
       return (
         <Card
+          key={maPhim}
           className="shadow-xl"
           hoverable
           style={{ width: 240 }}

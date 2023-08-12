@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
-.container {
+.notFound .container {
   height: 100vh;
   font-family: "Montserrat", "sans-serif";
   font-weight: bolder;
@@ -8,6 +8,6 @@
   align-items: center;
   flex-direction: column;
 }
-.container a {
+.notFound .container a {
   color: black;
 }
